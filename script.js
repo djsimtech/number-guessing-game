@@ -1,5 +1,5 @@
+// Generates a random number between 1 and 100
 let randomNumber = Math.floor(Math.random() * 100) + 1;
-console.log(randomNumber);
 
 const guesses = document.querySelector(".guesses");
 const lastResult = document.querySelector(".lastResult");
@@ -67,5 +67,4 @@ function resetGame() {
   lastResult.style.backgroundColor = "white";
 
   randomNumber = Math.floor(Math.random() * 100) + 1;
-  console.log(randomNumber);
 }
